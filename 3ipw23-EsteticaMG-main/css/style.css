@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 body {
-    background-color: #ecebe4;
+    background-color: #ECEBE4;
     font-family: 'Exo', sans-serif;
     font-size: 20px;
 }
@@ -46,6 +46,7 @@ nav ul li a:hover {
 .banner img{
     width: 100%;
     margin: 20px 0;
+    margin-top: -350px;
 }
 .texto{
     width: 47%;
@@ -64,15 +65,34 @@ nav ul li a:hover {
     width: 50%;
     display: inline-block;
 }
-
+.servicos {
+    background: #5E8C61;
+    padding: 70px 0;
+    margin:50px 0 ;
+}
+.servico {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+}
 .servico img{
-    border: 6px solid #5E8C61;
+    border:2px solid #4E6151;
+    width: 100%;
+}
+.titulo,.servicos h2 {
+    color: #3B0D11;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.servicos h2{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.titulo{
-    color: #ffffff;
-    font-size: 30px;
-    text-transform:uppercase;
-    font-weight:900;
-    text-align:center;
+.banner {
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
 }
